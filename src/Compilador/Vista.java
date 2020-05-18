@@ -30,7 +30,7 @@ public class Vista extends JFrame implements ActionListener{
 		menuPrincipal=new JMenuBar();
 		opcion=new JMenu("Archivo");
 		analisis=new JMenu("Analisis");
-		generador=new JMenu("");
+		generador=new JMenu("Sintesis");
 		opcion.add(new JMenuItem("Guardar"));
 		opcion.getItem(0).setEnabled(false);
 		opcion.addSeparator();
@@ -42,7 +42,7 @@ public class Vista extends JFrame implements ActionListener{
 		analisis.addSeparator();
 		analisis.add(new JMenuItem("Semantico"));
 		
-		generador.add(new JMenuItem(""));
+		generador.add(new JMenuItem("Codigo intermedio"));
 		generador.addSeparator();
 		generador.add(new JMenuItem(""));
 		analisis.getItem(2).setEnabled(false);
